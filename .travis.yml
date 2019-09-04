@@ -10,7 +10,6 @@ script:
 
 after_script:
   - cd ./public
-  - git config --global core.autocrlf false
   - git init
   - git config user.name "Syailian"
   - git config user.email "KaiKaiStar4@163.com"
