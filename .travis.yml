@@ -1,0 +1,27 @@
+language: node_js
+node_js: stable
+
+install:
+  - npm install hexo
+
+script:
+  - hexo clean
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git config --global core.autocrlf false
+  - git init
+  - git config user.name "Syailian"
+  - git config user.email "KaiKaiStar4@163.com"
+  - git add .
+  - git commit -a -m "Auto update docs by Travis CI."
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+branches:
+  only:
+    - hexo
+
+env:
+ global:
+   - GH_REF: github.com/Syailian/Syailian.github.io.git
