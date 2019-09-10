@@ -30,7 +30,7 @@ Queue接口与List、Set同一级别，都是继承了Collection接口。LinkedL
 ![Java Queue extend Collection](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_02.png)
 ![Java Queue extends](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_03.png)
 ### 阻塞队列
-```
+```java
 /**
  * 阻塞队列 ArrayBlockingQueue
  */
@@ -81,7 +81,7 @@ public class BlockingQueue {
 }
 ```
 ### 非阻塞队列
-```
+```java
 /**
  * @author MZK
  *

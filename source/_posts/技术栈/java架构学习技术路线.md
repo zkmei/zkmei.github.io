@@ -14,7 +14,7 @@ tags:
 ###### ——这样算是开始了自己的学习规划了，不断学习才能更好的提升自己！
 ### 后端技术图谱（后期更新不断补上链接）
 * 数据结构
-  * 队列
+  * [队列](http://www.aikeke503.cn/2019/07/06/ji-zhu-zhan/shu-ju-jie-gou/shu-ju-jie-gou-zhi-dui-lie-queue/)
   * 集合
   * 链表、数组
   * 字典、关联数组
