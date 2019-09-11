@@ -13,7 +13,7 @@ Queue： 基本上，一个队列就是一个先入先出（FIFO）的数据结�
 Queue接口与List、Set同一级别，都是继承了Collection接口。LinkedList实现了Deque接口。
 
 ## Queue的介绍
-![Java Queue](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_01.png)
+![队列模型](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_01.png)
 1. 没有实现的阻塞接口的LinkedList： 实现了java.util.Queue接口和java.util.AbstractQueue接口
 　　内置的不阻塞队列： PriorityQueue 和 ConcurrentLinkedQueue
 　　PriorityQueue 和 ConcurrentLinkedQueue 类在 Collection Framework 中加入两个具体集合实现。 
@@ -27,8 +27,8 @@ Queue接口与List、Set同一级别，都是继承了Collection接口。LinkedL
 　　PriorityBlockingQueue ：一个由优先级堆支持的无界优先级队列。
 　　DelayQueue ：一个由优先级堆支持的、基于时间的调度队列。
 　　SynchronousQueue ：一个利用 BlockingQueue 接口的简单聚集（rendezvous）机制。
-![Java Queue extend Collection](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_02.png)
-![Java Queue extends](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_03.png)
+![Queue类关系谱图](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_02.png)
+![Queue类关系谱图](https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/Queue/java_queue_03.png)
 ### 阻塞队列
 ```java
 /**
