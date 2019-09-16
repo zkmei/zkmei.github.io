@@ -2,7 +2,7 @@
 title: java架构学习技术路线
 date: 2019-07-05 12:30:00
 author: MZK
-img: http://static.blinkfox.com/20181021-oop.jpg
+img: https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/java-bg-learn.jpg
 categories: 技术栈
 top: true
 tags:
