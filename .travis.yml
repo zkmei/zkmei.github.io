@@ -11,7 +11,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "Syailian"
+  - git config user.name "zkmei"
   - git config user.email "KaiKaiStar4@163.com"
   - git add .
   - git commit -a -m "Auto update docs by Travis CI."
@@ -23,4 +23,4 @@ branches:
 
 env:
  global:
-   - GH_REF: github.com/Syailian/Syailian.github.io.git
+   - GH_REF: github.com/zkmei/zkmei.github.io.git
