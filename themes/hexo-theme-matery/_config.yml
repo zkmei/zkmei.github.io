@@ -93,7 +93,7 @@ indexbtn:
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
   qq: 1579186196
-  github: https://github.com/Syailian/
+  github: https://github.com/zkmei/
   email: kaikaistar4@163.com
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -165,7 +165,7 @@ myProjects:
     hexo-theme-matery:
       icon: fa-meetup
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/Syailian/hexo-theme-matery
+      url: http://github.com/zkmei/hexo-theme-matery
       desc: 一个采用 Material Design 和响应式设计的 Hexo 博客主题。
 
 # config my skills informations in about page.
@@ -259,7 +259,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/Syailian/hexo-theme-matery
+  url: https://github.com/zkmei/hexo-theme-matery
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
