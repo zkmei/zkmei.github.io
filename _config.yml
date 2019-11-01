@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 养乐多KaiKai
+title: KaiKai
 subtitle: MZK
 description: 做一个简单 且有力量BOY
-keywords: 养乐多KaiKai, MZK
+keywords: KaiKai, MZK
 author: MZK
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://syailian.github.io/
+url: https://zkmei.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -85,7 +85,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Syailian/Syailian.github.io.git
+  repo: git@github.com:zkmei/zkmei.github.io.git
   branch: master
  
 search:
