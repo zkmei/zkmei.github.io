@@ -1,5 +1,5 @@
 ---
-title: 集合Set详细分析
+title: 集合List详细分析
 date: 2019-07-22 23:33:10
 author: MZK
 img: https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/List/post-bg-list.jpg
