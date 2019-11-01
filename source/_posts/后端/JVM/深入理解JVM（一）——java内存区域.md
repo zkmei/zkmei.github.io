@@ -1,5 +1,5 @@
 ---
-title: java内存区域
+title: 深入理解JVM（一）——java内存区域
 date: 2019-09-08 19:30:33
 author: MZK
 img: https://kaikaistar-1258907959.cos.ap-shanghai.myqcloud.com/Blog/JVM/jvm-bg.jpg
