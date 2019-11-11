@@ -35,7 +35,7 @@ dream:
   enable: true
   showTitle: true
   title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  text: 人，切莫自以为是，地球离开了谁都会转，古往今来，恃才放肆的人都没有好下场。所以，即便再能干，也一定要保持谦虚谨慎，做好自己的事情，是金子总会发光。——马云马云
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -210,14 +210,14 @@ postCalendar: true
 # the Gitalk config，default disabled
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
-  enable: false
-  owner: blinkfox
-  repo: blinkfox.github.io
+  enable: true
+  owner: zkmei
+  repo: zkmei.github.io
   oauth:
-    clientId: 2e56c9f3a90b6e8fb4f0
-    clientSecret: ba491ea79bbff85ec80b88db79e210b474a9cbc8
+    clientId: 83be5a7f35d59510e2bb
+    clientSecret: b58046a84533dfe574659e7feb03f5be1df65e2f
   admin:
-    - blinkfox
+    - zkmei
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
