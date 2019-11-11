@@ -2,9 +2,8 @@
 title: 集合HashMap详细分析
 date: 2019-09-20 15:02:46
 author: MZK
-img: http://static.mzkai.com/Blog/Map/post-bg-2019.jpg
+img: http://static.mzkai.com/Blog/Map/map_bg_02.jpg
 categories: 技术栈
-top: true
 tags:
   - 集合
   - 数据结构
