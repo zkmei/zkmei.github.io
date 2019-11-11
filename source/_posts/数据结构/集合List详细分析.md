@@ -7,7 +7,6 @@ categories: 技术栈
 tags:
   - 数据结构
   - 集合
-  - list
 ---
 # 集合——List
 ## 简介
