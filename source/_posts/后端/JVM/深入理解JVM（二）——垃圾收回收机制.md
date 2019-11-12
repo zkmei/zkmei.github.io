@@ -107,6 +107,7 @@ public class JavaVMStackOOM {
 | jmap   | Memory Map for Java,生成虚拟机的内存转储快照（heapdump文件）                                 |
 | jhat   | JVM Heap Dump Browser，用于分析heapdump文件，创建一个HTTP/HTML服务器，再浏览器上查看分析结果 |
 | jstack | Stack Trace for Java，显示虚拟机的线程快照                                                   |
+
 ### jps：虚拟机进程状况工具
 | 选项  | 作用                                               |
 | :---: | :------------------------------------------------: |
@@ -114,8 +115,10 @@ public class JavaVMStackOOM {
 | -m    | 输出虚拟机进程启动时传递给主类main()函数的参数     |
 | -l    | 输出主类的全名，如果进程执行的是Jar包，输出Jar路径 |
 | -v    | 输出虚拟机进程启动时JVM参数                        |
+
 jps 命令格式
 jps [ options ] [ hostid ] 
+
 ### jstat：虚拟机统计信息监视工具
 | 选项             | 作用                                                                                 |
 | :--------------: | :----------------------------------------------------------------------------------: |
@@ -131,14 +134,18 @@ jps [ options ] [ hostid ]
 | gcutil           | 显示垃圾收集信息；                                                                   |
 | gccause          | 显示垃圾回收的相关信息（通-gcutil）,同时显示最后一次或当前正在发生的垃圾回收的诱因； |
 | printcompilation | 输出JIT编译的方法信息；                                                              |
+
 jstat命令格式：
 jstat [ option vmid [interval[s|ms] [count]]]
 例：jstat-gc 2764 250 20
 选项option代表着用户徐网查询的虚拟机信息：主要分为3类：类装载、垃圾收集、运行期编译状况。
+
 ### jinfo：Java配置信息工具
+
 jinfo命令格式：
 jinfo [ option ] pid
 一般使用-flag选项
+
 ### jmap：Java内存映像工具
 | 选项                | 作用                                                                     |
 | :-----------------: | :----------------------------------------------------------------------: |
@@ -151,8 +158,10 @@ jinfo [ option ] pid
 | F                   | 当-dump没有响应时，使用-dump或者-histo参数. 在这个模式下,live子参数无效. |
 | help                | 打印帮助信息                                                             |
 | J<flag>             | 指定传递给运行jmap的JVM的参数                                            |
+
 jmap命令格式：
 jmap [ option ] vmid
+
 ### jhat：虚拟机堆转储快照分析工具
 JDK提供jhat命令与jmap搭配使用，来分析jmap生成堆转储快照。
 内置了一个微型HTTP/HTML服务器，显示dump文件结果，但是相对来说比较简陋，其他的还有 VisualVM 、Eclipse Memory Analyzer、IBM HeapAnalyzer等工具。
@@ -162,6 +171,7 @@ JDK提供jhat命令与jmap搭配使用，来分析jmap生成堆转储快照。
 | -F    | 当正常输出的请求不被响应时，强制输出线程堆栈 |
 | -l    | 出堆栈外，显示关于所的附加信息               |
 | -m    | 如果调用本地方法，可现实C/C++的堆栈          |
+
 jstack命令格式：
 jstack [ option ] vmid
 
