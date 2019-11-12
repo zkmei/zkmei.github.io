@@ -212,7 +212,7 @@ postCalendar: true
 gitalk:
   enable: true
   owner: zkmei
-  repo: blog.mzkai.com
+  repo: zkmei.github.io
   oauth:
     clientId: 83be5a7f35d59510e2bb
     clientSecret: b58046a84533dfe574659e7feb03f5be1df65e2f
